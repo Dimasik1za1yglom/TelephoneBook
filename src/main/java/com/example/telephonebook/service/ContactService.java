@@ -19,7 +19,7 @@ public interface ContactService {
      * @param telephone  transmitted contact phone number
      * @return true if the data is successfully saved in the database. False - if failed
      */
-    boolean createContact(String lastName, String firstName, String patronymic, Date birthday, String... telephone);
+    boolean createContact(String lastName, String firstName, String patronymic, Date birthday, String telephone);
 
     /**
      * change the contact's last name
